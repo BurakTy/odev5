@@ -16,7 +16,6 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (var i = 0; i < names.length; i++) {  //for döngüsüyle names dizisini, içindeki eleman sayısı kadar döndürüyor
 
   var firstLetter = names[i].charAt(0);//gelen kelimenin ilk harfini firstLetter 'a gönderiyoruz
-console.log(firstLetter);
   if (firstLetter == 'j' || firstLetter == 'J') {//J , j harfiyle başlayan kelimeleri seçen if else koşulu
 	  byeSpeaker.speak(names[i]);
   } else {
