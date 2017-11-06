@@ -12,7 +12,7 @@ Good Bye Jim
 */
 (function(){
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"]; //isimlerin bulunduğu dizi
-
+ 
 for (var i = 0; i < names.length; i++) {  //for döngüsüyle names dizisini, içindeki eleman sayısı kadar döndürüyor
 
   var firstLetter = names[i].charAt(0);//gelen kelimenin ilk harfini firstLetter 'a gönderiyoruz
